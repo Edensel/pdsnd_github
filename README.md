@@ -11,7 +11,7 @@ In this project, we embark on a data exploration journey through bike share syst
 ![](images/bikes-pic.jpg)
 
 
-## Files
+## Files Used in this project
 Contained within this repository are three CSV files, each representing a cleaned dataset for the respective cities:
 
 * _Chicago.csv_
