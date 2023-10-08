@@ -1,5 +1,5 @@
 ## Python Data Analysis Project: Bike Share Exploration
-### Project Created on 8th October 2023 by Densel Esekon.
+### Project Created on 8th October 2023.
 
 ## Introduction
 Welcome to the bike share analysis project in the Udacity **Programming for Data Science with Python Nanodegree Track**. This project dives into the practical application of Python for data analysis.
