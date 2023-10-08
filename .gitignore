@@ -1,0 +1,7 @@
+# Ignore CSV files within specific directories
+chicago.csv
+chicago.csv/*.csv
+washington.csv
+washington.csv/*.csv
+new_york_city.csv
+new_york_city.csv/*.csv
