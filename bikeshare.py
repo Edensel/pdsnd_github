@@ -29,15 +29,15 @@ def get_filters():
 
     # Get user input for filter type (month, day, both, none) (case-insensitive)
     while True:
-        filter = input('Would you like to filter the data by month, day, both, or none? ').lower()
-        if filter in ['month', 'day', 'both', 'none']:
+        filter_type = input('Would you like to filter the data by month, day, both, or none? ').lower()
+        if filter_type in ['month', 'day', 'both', 'none']:
             break
         else:
             print('Invalid filter type. Please choose from month, day, both, or none.')
 
     # Get user input for month (case-insensitive)
     months = ['january', 'february', 'march', 'april', 'may', 'june']
-    if filter in ['month', 'both']:
+    if filter_type in ['month', 'both']:
         while True:
             month = input('Which month - January, February, March, April, May, or June? ').lower()
             if month in months:
@@ -50,7 +50,7 @@ def get_filters():
 
     # Get user input for day of the week (case-insensitive)
     days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-    if filter in ['day', 'both']:
+    if filter_type in ['day', 'both']:
         while True:
             day = input('Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday? ').title()
             if day in days:
