@@ -11,7 +11,7 @@ In this project, we embark on a data exploration journey through bike share syst
 ![](images/bikes-pic.jpg)
 
 
-## Files Used in this project
+## Files used in this project
 Contained within this repository are three CSV files, each representing a cleaned dataset for the respective cities:
 
 * _Chicago.csv_
@@ -35,3 +35,4 @@ To get started, simply execute the script in your terminal using the command pyt
 [![LinkedIn](https://img.icons8.com/ios-glyphs/30/000000/linkedin.png "LinkedIn")](https://www.linkedin.com/in/denselesekon/ "LinkedIn")
 
  
+# All rights reserved &copy; Densel Esekon
